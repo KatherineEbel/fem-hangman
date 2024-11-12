@@ -1,47 +1,58 @@
-# Welcome to Remix + Cloudflare!
+# Frontend Mentor - Hangman game solution
 
-- 📖 [Remix docs](https://remix.run/docs)
-- 📖 [Remix Cloudflare docs](https://remix.run/guides/vite#cloudflare)
+This is a solution to
+the [Hangman game challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/hangman-game-rsQiSVLGWn).
+Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Development
+## Table of contents
 
-Run the dev server:
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-```sh
-npm run dev
-```
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-To run Wrangler:
+## Overview
 
-```sh
-npm run build
-npm run start
-```
+### The challenge
 
-## Typegen
+Users should be able to:
 
-Generate types for your Cloudflare bindings in `wrangler.toml`:
+- Learn how to play Hangman from the main menu.
+- Start a game and choose a category.
+- Play Hangman with a random word selected from that category.
+- See their current health decrease based on incorrect letter guesses.
+- Win the game if they complete the whole word.
+- Lose the game if they make eight wrong guesses.
+- Pause the game and choose to continue, pick a new category, or quit.
+- View the optimal layout for the interface depending on their device's screen size.
+- See hover and focus states for all interactive elements on the page.
+- Navigate the entire game only using their keyboard.
 
-```sh
-npm run typegen
-```
+### Screenshot
 
-You will need to rerun typegen whenever you make changes to `wrangler.toml`.
+![](./screenshot.png)
 
-## Deployment
+### Links
 
-First, build your app for production:
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-```sh
-npm run build
-```
+## My process
 
-Then, deploy your app to Cloudflare Pages:
+### Built with
 
-```sh
-npm run deploy
-```
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- [Remix](https://remix.run/) - JS library
+- [Tailwindcss](https://tailwindcss.com/) - For styles
 
-## Styling
+## Author
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- Website - [Katherine Ebel](https://katherineebel.com)
+- Frontend Mentor - [@KatherineEbel](https://www.frontendmentor.io/profile/KatherineEbel)
