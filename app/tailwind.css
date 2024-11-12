@@ -32,7 +32,7 @@
 
 @layer components {
   .btn-hover-overlay {
-    @apply relative before:pointer-events-none before:absolute before:inset-0 before:rounded-full before:bg-transparent before:transition-all before:duration-300 before:content-[''] hover:before:bg-white/25;
+    @apply relative before:pointer-events-none before:absolute before:inset-0 before:rounded-2xl md:before:rounded-3xl before:bg-transparent before:transition-all before:duration-300 before:content-[''] hover:before:bg-white/25;
   }
   .body-text {
     @apply text-base leading-[1.2] tracking-wide md:text-xl lg:text-body;
