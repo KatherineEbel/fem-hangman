@@ -21,4 +21,7 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           packageManager: pnpm
           wranglerVersion: "3.57.1"
+          preCommands: |
+            pnpm install
+            pnpm run build
           command: pages deploy --project-name=fem-hangman
