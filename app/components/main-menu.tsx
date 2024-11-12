@@ -4,7 +4,7 @@ import PlayButton from '~/components/play-button'
 
 export default function MainMenu() {
   return (
-    <div className="flex w-full max-w-sm flex-col items-center justify-center rounded-[48px] bg-opacity-80 bg-gradient-to-b from-[#344ABA] to-[#001479] px-8 shadow-main-menu md:max-w-md">
+    <div className="flex w-svw max-w-sm md:max-w-xl flex-col items-center justify-center rounded-[48px] bg-opacity-80 bg-gradient-to-b from-[#344ABA] to-[#001479] px-8 shadow-main-menu">
       <div className="relative -translate-y-[70px]">
         <h1 className="sr-only">The Hangman Game</h1>
         <img src="/images/logo.svg" alt="The Hangman Game" />
