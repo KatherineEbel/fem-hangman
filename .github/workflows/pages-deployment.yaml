@@ -15,9 +15,12 @@ jobs:
         with:
           version: 9.11.0
       - uses: actions/checkout@v4
+      - name: Build
+        run:  pnpm run build
       - name: Deploy
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           packageManager: pnpm
+          wranglerVersion: "3.57.1"
           command: pages deploy --project-name=fem-hangman
